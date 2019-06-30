@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'GothamPro Bold Italic';
+    src: url(fonts/ofont.ru_Gotham\ Pro.ttf); 
+   }
+   @font-face {
+    font-family: 'PFDinTextCompPro Medium';
+    src: url(fonts/ofont.ru_PF\ Din\ Text\ Comp\ Pro\ Medium.ttf); 
+   }
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow:hidden;
+}
+.first-screen {
+    background: url(img/bg.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 612px;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.header {
+    display: flex;
+}
+.header__links {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+ul li {
+    display: inline;
+    margin-right: 45px;
+    font-size: 14px;
+    font-weight: 400;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+.btn {
+    color: white;
+    background: #ef1246;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 40px;
+    line-height: 100%;
+    border-radius: 3px;
+}
+.first-screen__h1 {
+    font-family: 'GothamPro Bold Italic';
+    font-size: 80px;
+    color: white;
+    padding-top: 105px;
+    width: 700px;
+    text-transform: uppercase;
+}
+.first-screen__label {
+    background: url(img/Без\ имени-2.png) no-repeat;
+    width: 100%;
+    height: 48px;
+    margin-left: 15%;
+    text-transform: uppercase;
+    font-size: 29px;
+    font-family: 'PFDinTextCompPro Medium';
+    position: relative;
+}
+.first-screen__label span{
+    display: block;
+    position: absolute;
+    left: 25px;
+    top: 7px;
+}
+.first-screen__p {
+    font-size: 24px;
+    width: 480px;
+    padding-top: 20px;
+    color: white;
+}
+.first-screen__p span {
+    color: #1b4b6d;
+    font-size: 19px;
+    text-transform: uppercase;
+    background-color: #bce3ff;
+    padding: 3px 10px;
+    border-radius: 3px;
+}
+.fisrt-screen__btn_yellow {
+    background-color: #f4ba2e;
+    color: black;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 17px 34px;
+}
+.first-screen {
+    position: relative;
+}
+.first-screen__img img {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.second-screen__h2 {
+    margin-top: 80px;
+    margin-bottom: 54px;
+    font-size: 22px;
+    font-weight: 700px;
+    text-align: center;
+}
+.second-screen__info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 85px;
+    line-height: 1.6rem;
+}
+.second-screen__info div {
+    width: 40%;
+}
+.second-screen__info img {
+    float: left;
+    margin-right: 40px;
+}
+h3 {
+    color: #217fc1;
+    font-size: 20px;
+    font-weight: 700;
+}
+.second-screen__p span {
+    color: #ef1246;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.second-screen__btn__red {
+    color: white;
+    background-color: #ef1246;
+    font-size: 18px;
+    font-weight: 500;  
+    display: block;
+    margin: 0 auto;  
+    padding: 18px 24px;
+    margin-bottom: 72px;
+}
+.third-screen {
+    background-color: #e8edf0;
+    padding: 40px 0px;
+}
+.third-screen__h2 {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+.third-screen__p {
+    color: #545657;
+    line-height: 1.7rem;
+    padding-bottom: 20px;
+}
+.third-screen__link {
+    color: #217fc1;
+}
+.payment-logos {
+    margin: 20px 170px;
+    display: flex;
+    justify-content: space-between;
+    color: #f9f9f9;
+    align-items: center;
+}
+.payment-logos img {
+    height: 100%;
+}
+.payment-logos img:hover {
+    transform: translateX(5px); 
+}
+.btn:hover {
+    transform: translateX(5px); 
+}
